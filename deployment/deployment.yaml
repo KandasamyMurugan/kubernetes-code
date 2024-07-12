@@ -16,7 +16,7 @@ spec:
       - name: sales-app-container
         image: nginx:1.16.1
         ports:
-        - containerPort: 80
+        - containerPort: 80 #port specified in docker image
         resources:         
           limits:          
             cpu: 50m        
